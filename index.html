@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRAQIHOME</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- الهيدر -->
+    <header>
+        <div class="header-container">
+            <div class="logo">البيت العراقي || IRAQI HOME</div>
+            
+            <!-- التصنيفات -->
+            <nav class="categories">
+                <ul>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn" onclick="event.preventDefault();">
+                            <span class="category-text">التصنيفات</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-content">
+                            <a href="#" onclick="filterProducts('all'); event.preventDefault();">الكل</a>
+                            <a href="#" onclick="filterProducts('electronics'); event.preventDefault();">اجهزة كهربائية</a>
+                            <a href="#" onclick="filterProducts('accessories'); event.preventDefault();">الكترونيات واكسسوارات</a>
+                            <a href="#" onclick="filterProducts('skincare'); event.preventDefault();">عناية بالبشرة</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            
+            <!-- مربع البحث -->
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="ابحث..." oninput="searchProducts()">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            
+            <!-- سلة الشراء -->
+            <div class="cart-icon" onclick="toggleCart()">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- المنتجات -->
+    <main class="products-container">
+        <!-- سيتم ملؤها عبر JavaScript -->
+    </main>
+
+   <!-- سلة الشراء -->
+<div class="cart-overlay" id="cartOverlay">
+    <div class="cart">
+        <div class="cart-header">
+            <h2>سلة الشراء</h2>
+            <button class="close-cart" onclick="toggleCart()">&times;</button>
+        </div>
+
+        <div class="cart-items" id="cartItems">
+            <p class="empty-cart">سلة الشراء فارغة</p>
+        </div>
+
+        <!-- معلومات الزبون -->
+        <div class="customer-info" style="padding: 10px; border-top: 1px solid #ccc;">
+            <h3>معلومات الزبون</h3>
+            <label>الاسم:</label>
+            <input type="text" id="customerName" placeholder="أدخل اسمك" style="width: 100%; padding: 5px; margin-bottom: 10px;">
+            
+            <label>رقم الهاتف:</label>
+            <input type="text" id="customerPhone" placeholder="أدخل رقم الهاتف" style="width: 100%; padding: 5px; margin-bottom: 10px;">
+            
+            <label>العنوان:</label>
+            <input type="text" id="customerAddress" placeholder="أدخل العنوان" style="width: 100%; padding: 5px; margin-bottom: 10px;">
+        </div>
+
+        <div class="cart-total">
+            <p>المجموع: <span id="cartTotal">0</span> د.ع</p>
+            <button class="checkout-btn" onclick="checkout()">إتمام الشراء</button>
+        </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
