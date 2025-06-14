@@ -6,6 +6,7 @@
     <title>IRAQIHOME</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/e-commers.png">
 </head>
 <body>
     <!-- الهيدر -->
@@ -30,6 +31,25 @@
                     </li>
                 </ul>
             </nav>
+          <!-- زر القائمة الجانبية للجوال -->
+<div class="mobile-menu-btn" onclick="toggleSidebar()">
+    <i class="fas fa-bars"></i>
+</div>
+
+<!-- القائمة الجانبية للجوال -->
+<div class="sidebar-overlay" id="sidebarOverlay" onclick="toggleSidebar()"></div>
+<div class="mobile-sidebar" id="mobileSidebar">
+    <div class="sidebar-header">
+        <div class="sidebar-logo">البيت العراقي || IRAQI HOME</div>
+        <button class="close-sidebar" onclick="toggleSidebar()">&times;</button>
+    </div>
+    <div class="sidebar-categories">
+        <a href="#" onclick="filterProducts('all'); toggleSidebar(); event.preventDefault();">الكل</a>
+        <a href="#" onclick="filterProducts('electronics'); toggleSidebar(); event.preventDefault();">اجهزة كهربائية</a>
+        <a href="#" onclick="filterProducts('accessories'); toggleSidebar(); event.preventDefault();">الكترونيات واكسسوارات</a>
+        <a href="#" onclick="filterProducts('skincare'); toggleSidebar(); event.preventDefault();">عناية بالبشرة</a>
+    </div>
+</div>
             
             <!-- مربع البحث -->
             <div class="search-box">
