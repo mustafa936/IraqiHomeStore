@@ -14,7 +14,7 @@ const products = [
     {
         id: 2,
         name: "محضرة شامية كهربائية",
-        price: 25000,
+        price: 19000,
         category: "electronics",
         images: [
             "https://opensooq-images.os-cdn.com/previews/0x720/f7/1f/f71fd8298d5212bcc90859017b34b9a6febee48c7c175d893af4d9f2f068655f.png.webp",
