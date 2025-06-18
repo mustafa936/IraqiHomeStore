@@ -54,7 +54,7 @@ const products = [
     {
         id: 4,
         name: "فرشاة تنظيف الالكترونيات 20 في1",
-        price: 20000,
+        price: 17000,
         category: "accessories",
         images: [
             "https://sc04.alicdn.com/kf/H61f5fda7cfe946bf80f9d780694a0b84d/231763589/H61f5fda7cfe946bf80f9d780694a0b84d.jpg",
