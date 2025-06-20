@@ -104,7 +104,7 @@ const products = [
     {
         id: 8,
         name: "ستاند لابتوب المنيوم قابل للطي",
-        price: 25000,
+        price: 12000,
         category: "accessories",
         images: [
             "https://cdn.salla.sa/Orbp/hDXwhAe500XEVktxQUOhL7u3qnS10F2XEBTItO9L.png",
@@ -114,7 +114,7 @@ const products = [
     {
         id: 9,
         name: "نك مايك ماركة yesido",
-        price: 40000,
+        price: 37000,
         category: "accessories",
         images: [
             "https://imychic.com/wp-content/uploads/2024/07/Double-Microphone-Cravate-Sans-Fil-A-Faible-Latence-Avec-Recepteur-3en1-Yesido-KR15-6.jpg.webp",
