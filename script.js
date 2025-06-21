@@ -122,13 +122,183 @@ const products = [
         ]
     },
     {
-        id: 13,
+        id: 14,
         name: "جرس باب ذكي -كاميرا وتطبيق- ",
         price: 25000,
         category: "accessories",
         images: [
             "https://media.zid.store/beab53b5-70d3-4c90-8396-4b3566f5e8d1/0bac8c55-d4f5-4266-b2b8-1bb901e27d5f.jpg",
             "https://media.zid.store/beab53b5-70d3-4c90-8396-4b3566f5e8d1/0bac8c55-d4f5-4266-b2b8-1bb901e27d5f.jpg"
+        ]
+    },
+    {
+        id: 15,
+        name: "مروحة عامودية 18 انج شحن من تاور",
+        price: 75000,
+        category: "electronics",
+        images: [
+            "https://toolmart.me/cdn/shop/files/6__6_7_67_2.jpg",
+            "https://toolmart.me/cdn/shop/files/6__6_7_67_2.jpg"
+        ]
+    },
+    {
+        id: 16,
+        name: "مروحة شحن OKSTAR",
+        price: 54000,
+        category: "electronics",
+        images: [
+            "https://matjardora.com/upload/0d8e6fa0a46b93564425bcfa785d01aa_800x600.png",
+            "https://matjardora.com/upload/0d8e6fa0a46b93564425bcfa785d01aa_800x600.png"
+        ]
+    },
+    {
+        id: 17,
+        name: "مروحة حرف الجي",
+        price: 25000,
+        category: "electronics",
+        images: [
+            "https://opensooq-images.os-cdn.com/previews/0x720/c6/96/c696d2f72b257ae683c496c7b9b30bceedee109cee5a077147b480105f43cffa.png.webp",
+            "https://opensooq-images.os-cdn.com/previews/0x720/c6/96/c696d2f72b257ae683c496c7b9b30bceedee109cee5a077147b480105f43cffa.png.webp"
+        ]
+    },
+    {
+        id: 18,
+        name: "مروحة سبيكر + لايت 801",
+        price: 28000,
+        category: "electronics",
+        images: [
+            "https://matjardora.com/upload/595b23aece53e036d8ca4e2c56dd2cbf_800x600.png",
+            "https://matjardora.com/upload/595b23aece53e036d8ca4e2c56dd2cbf_800x600.png"
+        ]
+    },
+    {
+        id: 19,
+        name: "محضرة كريب",
+        price: 22000,
+        category: "electronics",
+        images: [
+            "https://matjardora.com/upload/022336a9850770609e2e750efc43726f_800x600.png",
+            "https://matjardora.com/upload/022336a9850770609e2e750efc43726f_800x600.png"
+        ]
+    },
+    {
+        id: 20,
+        name: "صانعة شعر بنات ماركة ايكوك",
+        price: 30000,
+        category: "electronics",
+        images: [
+            "https://ibazzar.com/_next/image?url=https%3A%2F%2Fstorage.ibazzar.net%2Fposters%2F2024%2F8%2F27660%2Fimg_2_2024-08-14_13-00-35-67862.png&w=1920&q=75",
+            "https://ibazzar.com/_next/image?url=https%3A%2F%2Fstorage.ibazzar.net%2Fposters%2F2024%2F8%2F27660%2Fimg_2_2024-08-14_13-00-35-67862.png&w=1920&q=75"
+        ]
+    },
+    {
+        id: 21,
+        name: " فرن تندوري ماركة امبليوم",
+        price: 97000,
+        category: "electronics",
+        images: [
+            "https://www.iwanshop.com/public/uploads/all/tywMhVwmt6lLoWhPnnQXtNOLUVZf88ZMqkvb1aWC.webp",
+            "https://www.iwanshop.com/public/uploads/all/tywMhVwmt6lLoWhPnnQXtNOLUVZf88ZMqkvb1aWC.webp"
+        ]
+    },
+    {
+        id: 22,
+        name: "كابسة صاج من سامكس",
+        price: 30000,
+        category: "electronics",
+        images: [
+            "https://iwanshop.com/public/uploads/all/UBrwYxKjz0j2PaB0rcUgcjw6hWVsir8qJTRwyWav.webp",
+            "https://iwanshop.com/public/uploads/all/UBrwYxKjz0j2PaB0rcUgcjw6hWVsir8qJTRwyWav.webp"
+        ]
+    },
+    {
+        id: 23,
+        name: "قلاية هوائية 7 لتر ماركة امبليوم",
+        price: 103000,
+        category: "electronics",
+        images: [
+            "https://iwanshop.com/public/uploads/all/fWOgylCj5IFHK97aOyyXHoPDA2SkPPEk3IdTWRjc.webp",
+            "https://iwanshop.com/public/uploads/all/fWOgylCj5IFHK97aOyyXHoPDA2SkPPEk3IdTWRjc.webp"
+        ]
+    },
+    {
+        id: 24,
+        name: "طابعة حرارية صغيرة",
+        price: 22000,
+        category: "accessories",
+        images: [
+            "https://iwanshop.com/public/uploads/all/9R6twO9EOJxRV7paL8oT05dsfmt0QDE6r1N88oVs.webp",
+            "https://iwanshop.com/public/uploads/all/9R6twO9EOJxRV7paL8oT05dsfmt0QDE6r1N88oVs.webp"
+        ]
+    },
+    {
+        id: 25,
+        name: "بوكس سماعات وساعة الترا X8",
+        price: 42000,
+        category: "accessories",
+        images: [
+            "https://iwanshop.com/public/uploads/all/91qEfMruQmFSnjnTKl2LHzyWgSAcaMdeVgxgY1bE.webp",
+            "https://iwanshop.com/public/uploads/all/91qEfMruQmFSnjnTKl2LHzyWgSAcaMdeVgxgY1bE.webp"
+        ]
+    },
+    {
+        id: 26,
+        name: "سماعات ايربود هوكو",
+        price: 17000,
+        category: "accessories",
+        images: [
+            "https://opensooq-images.os-cdn.com/previews/0x720/80/97/80975ec9ec66016ea524fe759cf0f4900911293c8c37f71aed5ad144c8c28e2d.jpg.webp",
+            "https://opensooq-images.os-cdn.com/previews/0x720/80/97/80975ec9ec66016ea524fe759cf0f4900911293c8c37f71aed5ad144c8c28e2d.jpg.webp"
+        ]
+    },
+    {
+        id: 27,
+        name: "جهاز تنظيف الاقدام",
+        price: 20000,
+        category: "skincare",
+        images: [
+            "https://scontent.fosm4-2.fna.fbcdn.net/v/t39.30808-6/506090853_1068652891831960_1141727819206017492_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=XnCJb0q8tq0Q7kNvwGqSwz0&_nc_oc=AdlFfRop3UFHESzA8ZrzcyV_-Jy6PmsCLw8m3l3bTatuCyYenIrmDNR0ax7EAR34uag&_nc_zt=23&_nc_ht=scontent.fosm4-2.fna&_nc_gid=9XjWpjpBJS3Xa_r5QG8emA&oh=00_AfPlgEBwkq0W-95dWl3OgERsjJdUHfZHixd-uB4Iv7maVg&oe=685C89AA",
+            "https://scontent.fosm4-2.fna.fbcdn.net/v/t39.30808-6/506090853_1068652891831960_1141727819206017492_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=XnCJb0q8tq0Q7kNvwGqSwz0&_nc_oc=AdlFfRop3UFHESzA8ZrzcyV_-Jy6PmsCLw8m3l3bTatuCyYenIrmDNR0ax7EAR34uag&_nc_zt=23&_nc_ht=scontent.fosm4-2.fna&_nc_gid=9XjWpjpBJS3Xa_r5QG8emA&oh=00_AfPlgEBwkq0W-95dWl3OgERsjJdUHfZHixd-uB4Iv7maVg&oe=685C89AA"
+        ]
+    },
+    {
+        id: 28,
+        name: "مسدس مساج 4 رؤؤس",
+        price: 25000,
+        category: "skincare",
+        images: [
+            "https://cdn.salla.sa/xQjRb/8068a9c2-e14a-442e-ba40-7887a73ec3fa-1000x998.2905982906-Gf7M3cD5cSD5s5qjMMpw30lxbXJzsy8f2urJspFG.jpg",
+            "https://cdn.salla.sa/xQjRb/8068a9c2-e14a-442e-ba40-7887a73ec3fa-1000x998.2905982906-Gf7M3cD5cSD5s5qjMMpw30lxbXJzsy8f2urJspFG.jpg"
+        ]
+    },
+    {
+        id: 29,
+        name: "مكواة محمولة ماركة ليبرونك",
+        price: 31000,
+        category: "electronics",
+        images: [
+            "https://opensooq-images.os-cdn.com/previews/2048x0/59/ee/59ee792aca65f2d107d8811288c385378d00ce381acb881e3aab52108ddc9155.png.webp",
+            "https://opensooq-images.os-cdn.com/previews/2048x0/59/ee/59ee792aca65f2d107d8811288c385378d00ce381acb881e3aab52108ddc9155.png.webp"
+        ]
+    },
+    {
+        id: 30,
+        name: "غسالة قابلة للطي",
+        price: 25000,
+        category: "electronics",
+        images: [
+            "https://opensooq-images.os-cdn.com/previews/0x720/57/9e/579ecf9481b4d0c51ca8b6b554a1327058196572347ea4dce63400faf8a8981a.png.webp",
+            "https://opensooq-images.os-cdn.com/previews/0x720/57/9e/579ecf9481b4d0c51ca8b6b554a1327058196572347ea4dce63400faf8a8981a.png.webp"
+        ]
+    },
+    {
+        id: 31,
+        name: "محول ذكي متعدد الوظائف",
+        price: 17000,
+        category: "accessories",
+        images: [
+            "https://scontent.fosm4-3.fna.fbcdn.net/v/t39.30808-6/503719766_644579485278043_4012032582171861643_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tb5O_8FRtM4Q7kNvwHoWU8O&_nc_oc=AdlZNSZdLh6b8GMKq4UMjFTcNDgS0sYJbdcPzl_k_NJH1BRYgyZS5l8R8COJBa1bWLw&_nc_zt=23&_nc_ht=scontent.fosm4-3.fna&_nc_gid=6QmsIxt5WoHq25dQAXUeqQ&oh=00_AfMU33JuU7eHgLXfmRR5G_4JYOS80zIT8Y9eKv7v3ma_CQ&oe=685C6A70",
+            "https://scontent.fosm4-3.fna.fbcdn.net/v/t39.30808-6/503719766_644579485278043_4012032582171861643_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tb5O_8FRtM4Q7kNvwHoWU8O&_nc_oc=AdlZNSZdLh6b8GMKq4UMjFTcNDgS0sYJbdcPzl_k_NJH1BRYgyZS5l8R8COJBa1bWLw&_nc_zt=23&_nc_ht=scontent.fosm4-3.fna&_nc_gid=6QmsIxt5WoHq25dQAXUeqQ&oh=00_AfMU33JuU7eHgLXfmRR5G_4JYOS80zIT8Y9eKv7v3ma_CQ&oe=685C6A70"
         ]
     },
     {
